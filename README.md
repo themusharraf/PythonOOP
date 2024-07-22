@@ -1,5 +1,5 @@
 # Python OOP
-> [!NOTE]
+
 ### Ushbu Python OOP sizga Python ob'ektga yo'naltirilgan dasturlashni aniq tushuntirib beradi, shuning uchun uni dasturiy ta'minotni yanada samarali ishlab chiqish uchun qo'llashingiz mumkin.
 
 ### Ushbu Python OOP modulining oxirida siz ob'ektga yo'naltirilgan tamoyillar haqida yaxshi bilimga ega bo'lasiz. Ishonchli va mustahkam dasturiy ilovalar yaratish uchun Python sintaksisidan qanday foydalanishni bilib olasiz.
