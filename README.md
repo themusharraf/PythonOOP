@@ -20,22 +20,22 @@
 
 - ### Ob'ektga yo'naltirilgan dasturlash - sizga Python ob'ektga yo'naltirilgan dasturlashning muhim tushunchalari bilan tanishtiring.
 
-- ### Sinf - sinfni qanday aniqlashni va sinfdan yangi ob'ektlarni yaratishni o'rganing.
-- ### Sinf o'zgaruvchilari - sinf o'zgaruvchilarini (yoki atributlarini) tushuntiring
-- ### Namuna usullari - sizga misol usullari bo'yicha yo'l-yo'riq beradi va funksiya va usul o'rtasidagi farqlarni tushunishga yordam beradi.
-- ### __init__() - ob'ekt atributlarini ishga tushirish uchun __init__ usulidan qanday foydalanishni ko'rsating.
-- ### Namuna o'zgaruvchilari - misol o'zgaruvchilarini tushuning.
-- ### Shaxsiy atributlar - shaxsiy atributlar va ulardan qanday samarali foydalanish haqida bilib oling.
-- ### Sinf atributlari - sinf atributlarini tushunish va eng muhimi, sinf atributlaridan qachon foydalanish kerakligi.
-- ### Statik usullar - sizga statik usullarni tushuntiring va sinfdagi tegishli funktsiyalarni guruhlash uchun ulardan qanday foydalanishni ko'rsatadi.
+- Sinf - sinfni qanday aniqlashni va sinfdan yangi ob'ektlarni yaratishni o'rganing.
+-  Sinf o'zgaruvchilari - sinf o'zgaruvchilarini (yoki atributlarini) tushuntiring
+-  Namuna usullari - sizga misol usullari bo'yicha yo'l-yo'riq beradi va funksiya va usul o'rtasidagi farqlarni tushunishga yordam beradi.
+-  __init__() - ob'ekt atributlarini ishga tushirish uchun __init__ usulidan qanday foydalanishni ko'rsating.
+-  Namuna o'zgaruvchilari - misol o'zgaruvchilarini tushuning.
+-  Shaxsiy atributlar - shaxsiy atributlar va ulardan qanday samarali foydalanish haqida bilib oling.
+-  Sinf atributlari - sinf atributlarini tushunish va eng muhimi, sinf atributlaridan qachon foydalanish kerakligi.
+-  Statik usullar - sizga statik usullarni tushuntiring va sinfdagi tegishli funktsiyalarni guruhlash uchun ulardan qanday foydalanishni ko'rsatadi.
 ---
 
-## 2-bo'lim. Maxsus usullar
-- ### __str__ usuli - ob'ektning satr tasvirini qaytarish uchun __str__ dunder usulidan qanday foydalanishni ko'rsating.
-- ### __repr__ usuli – __repr__ usulidan qanday foydalanishni va __str__ va __repr__ usullari orasidagi asosiy farqni bilib oling.
-- ### __eq__ usuli - qiymatlar bo'yicha ob'ektlarni solishtirish uchun tenglik mantiqini aniqlashni o'rganing.
-- ### __hash__ usuli – __has__ usuli yordamida sinfni qanday qilib hashlash mumkin bo‘lishini ko‘rsating.
-- ### __bool__ usuli - __bool__ usuli yordamida maxsus ob'ektning True yoki False ekanligini aniqlash bo'yicha sizga ko'rsatma beradi.
-- ### __del__ usuli - __del__ usuli qanday ishlashini tushuning.
+## 2-bo'lim. `Special`Maxsus methodlar
+-  `__str__`  method- ob'ektning satr tasvirini qaytarish uchun `__str__` dunder umethodidan qanday foydalanishni ko'rsating.
+-  `__repr__` method– `__repr__` methoddan qanday foydalanishni va `__str__` va `__repr__` methodlari orasidagi asosiy farqni bilib oling.
+-  `__eq__ `  method- qiymatlar bo'yicha ob'ektlarni solishtirish uchun tenglik mantiqini aniqlashni o'rganing.
+-  `__hash__` method– `__hash__` method yordamida sinfni qanday qilib hashlash mumkin bo‘lishini ko‘rsating.
+-  `__bool__` method- `__bool__` method yordamida maxsus ob'ektning True yoki False ekanligini aniqlash bo'yicha sizga ko'rsatma beradi.
+-  `__del__ ` method- `__del__` method qanday ishlashini tushuning.
 ---
 
