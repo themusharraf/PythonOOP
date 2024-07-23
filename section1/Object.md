@@ -70,30 +70,28 @@
 
 4. ### `instance`namuna methodlarini aniqlang.
 
-Quyida Classga chaqirilgan misol methodi greet()qo'shiladi Person:
+   Quyida Classga chaqirilgan misol methodi greet()qo'shiladi Person:
 
-```python
-class Person:
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+   ```python
+    class Person:
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
 
-    def greet(self):
-        return f"Hi, it's {self.name}."
-```
+        def greet(self):
+            return f"Hi, it's {self.name}."
+   ```
+   instance methodni chaqirish uchun siz nuqta belgilaridan ham foydalanasiz. Masalan:
 
-instance methodni chaqirish uchun siz nuqta belgilaridan ham foydalanasiz. Masalan:
+   ```python
+   person = Person('John', 25)
+   print(person.greet())
+   ```
+   natija:
 
-```python
-person = Person('John', 25)
-print(person.greet())
-```
-
-natija:
-
-```shell
-Hi, it's John
-```
+   ```shell
+   Hi, it's John
+   ```
 
 ---
 
@@ -103,60 +101,57 @@ Hi, it's John
    foydali bo'ladi.
    Masalan, `counter` sinfdagi sinf atributini quyidagilar belgilaydi `Person` :
 
-```python
-class Person:
-    counter = 0
+   ```python
+   class Person:
+        counter = 0
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
 
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
+        def greet(self):
+            return f"Hi, it's {self.name}."
+   ```
+   `counter` Siz atributga sinfdan kirishingiz mumkin `Person` :
 
-    def greet(self):
-        return f"Hi, it's {self.name}."
-```
+   ```python
+   Person.counter   
+   ```
 
-`counter` Siz atributga sinfdan kirishingiz mumkin `Person` :
+   Yoki class ning har qanday misollaridan `Person` :
 
-```python
-Person.counter
-```
+   ```python
+   person = Person('John', 25)
+   person.counter
+   ```
 
-Yoki class ning har qanday misollaridan `Person` :
+   O'zgaruvchini foydaliroq qilish uchun `counter` ob'ekt yaratilgandan so'ng uning qiymatini bittaga oshirishingiz mumkin.
+   Buni amalga oshirish uchun siz `counter` methodda class atributini oshirasiz `__init__` :
 
-```python
-person = Person('John', 25)
-person.counter
-```
+   ```python
+    class Person:
+        counter = 0
 
-O'zgaruvchini foydaliroq qilish uchun `counter` ob'ekt yaratilgandan so'ng uning qiymatini bittaga oshirishingiz mumkin.
-Buni amalga oshirish uchun siz `counter` methodda class atributini oshirasiz `__init__` :
+        def __init__(self, name, age):
+            self.name = name
+            self.age = age
+            Person.counter += 1
 
-```python
-class Person:
-    counter = 0
+        def greet(self):
+            return f"Hi, it's {self.name}."
+   ```
 
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-        Person.counter += 1
+   Quyidagilar classning ikkita nusxasini yaratadi `Person` va qiymatini ko'rsatadi `counter` :
 
-    def greet(self):
-        return f"Hi, it's {self.name}."
-```
+   ```python
+   p1 = Person('Musharraf', 25)
+   p2 = Person('Musharraf', 22)
+   print(Person.counter)
+   ```
+   natija:
 
-Quyidagilar classning ikkita nusxasini yaratadi `Person` va qiymatini ko'rsatadi `counter` :
-
-```python
-p1 = Person('John', 25)
-p2 = Person('Jane', 22)
-print(Person.counter)
-```
-
-natija:
-
-```shell
-2
-```
+   ```shell
+   2
+   ```
 
 ---
 
