@@ -1,4 +1,4 @@
-## Python ob'ektga yo'naltirilgan dasturlash
+## Pythonda ob'ektga yo'naltirilgan dasturlash
 ---
 
 - Xulosa : ushbu qo'llanmada siz Python-da ob'ektga yo'naltirilgan dasturlashni o'rganasiz, jumladan objects, classes,
