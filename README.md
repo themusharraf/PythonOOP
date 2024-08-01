@@ -20,7 +20,7 @@
 
 1. [`Object-oriented programming`](https://github.com/themusharraf/PythonOOP/blob/master/section1/Object.md) - sizga Python ob'ektga yo'naltirilgan dasturlashning muhim tushunchalari bilan
    tanishtiring.
-2. [`Class`]() Class - classni qanday aniqlashni va classdan yangi ob'ektlarni yaratishni o'rganing.
+2. [`Class`](https://github.com/themusharraf/PythonOOP/blob/master/section1/Class.md) Class - classni qanday aniqlashni va classdan yangi ob'ektlarni yaratishni o'rganing.
 3. [`Class variables`]() - class o'zgaruvchilarini (yoki atributlarini) tushuntiring
 4. [`Instance methods`]() - sizga misol usullari bo'yicha yo'l-yo'riq beradi va funksiya va usul o'rtasidagi farqlarni
    tushunishga yordam beradi.
