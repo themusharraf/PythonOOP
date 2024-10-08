@@ -31,6 +31,59 @@
 ---
 
 3. ### instance atributlarini aniqlang.
+4. ```python
+   # class ClassName:
+#     ...
+#     # statement-1>
+#     # .
+#     # .
+#     # statement-n>
+
+# class object
+# class Myclass:
+#     """A simple example class"""
+#     num = 2024  # instance attribute
+#
+#     def foo(self):
+#         return self.num
+#
+#
+# obj = Myclass()
+# print(obj.foo())
+
+# __init__
+"""
+__init__ Ob'ektni yaratganingizda Person
+Python avtomatik ravishda __init__ misol
+atributlarini ishga tushirish methodini chaqiradi.
+Methodda __init__ bu self class ning namunasi dir 
+"""  # noqa
+
+
+class Person:
+
+    def __init__(self, name, age):
+        """
+           Shaxsni yaratishda "Musharraf" and 24 argument sifatida uzatiladi,
+           bu argument ob'ektni ishga tushirish uchun __init__ usuliga
+           o'tkaziladi.
+           """  # noqa
+        self.name = name
+        self.age = age
+
+    def display(self):
+        """class method display"""
+        return f"name: {self.name}\nage: {self.age}"
+
+
+person1 = Person("Musharraf", 24)  # object one
+# print(person1) # <__main__.Person object at 0x104556fd0>
+# print(person1.age)
+# print(person1.name)
+print(person1.display())  # get class attributes
+print(person1.display.__doc__)  # get class method docstring
+print(person1.__init__.__doc__)  # get class __init__ method docstring
+```
 
    Python dinamik. Bu shuni anglatadiki, siz ish vaqtida dinamik ravishda class instance siga atribut qo'shishingiz
    mumkin.
