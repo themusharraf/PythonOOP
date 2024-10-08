@@ -31,7 +31,7 @@
 ---
 
 3. ### instance atributlarini aniqlang.
-4. ```python
+ ```python
    # class ClassName:
 #     ...
 #     # statement-1>
