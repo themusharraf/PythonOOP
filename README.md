@@ -4,7 +4,7 @@
 
 ### Ushbu Python OOP modulining oxirida siz ob'ektga yo'naltirilgan tamoyillar haqida yaxshi bilimga ega bo'lasiz. Ishonchli va mustahkam dasturiy ilovalar yaratish uchun Python sintaksisidan qanday foydalanishni bilib olasiz.
 
-## Siz nimani o'rganasiz
+## Siz nimani o'rganasiz 
 
 - `class`Sinflar va usullarni aniqlash orqali Python-da ob'ektlar yarating.
 - `inheritance`Meros yordamida sinflarni kengaytiring.
